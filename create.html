@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>NFTpool.login</title>
+  </head>
+  
+  <body>
+   <div class="first-p">
+    <div class="bar">
+      <div class="logo"><a href="index.html">NFTpool</a></div>
+      <!--have no clue how to do search option-->
+        <div class="search"> 
+          <form>
+            <input class="search-f" list="search-f" name="search-f" placeholder="Search...">
+            <datalist  id="search-f">
+              <option value="animals nft">
+            </datalist>
+          </form>
+        </div>
+    
+       <div class="nav">
+        <ul>
+          <li><a href="create.html">Create</a></li>
+          <li><a href="ranking.html">Ranking</a></li>
+          <li><a href="buy.html">Buy NFT</a></li>
+          <li><a href="cont.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- hove no clue how to do accounts neither-->
+      <div class="account">
+        <a href="login.html">Log in</a> 
+        <a href="signup.html">Sign up</a>
+      </div>
+    </div>
+    <div class="create-wrapper">
+        <div class="img-left"></div>
+         <form class="create-form">
+
+              <h2 class="create-nft">Create NFT</h2>
+            
+              <input type="text" id="create-name" name="create-name" class="create-name" placeholder="NFT name">
+              <input type="number" id="create-name" name="create-price" class="create-name" min="0.01" max="12.1" step="0.01" placeholder="Enter price in ETH"> 
+           <label class="add-file">
+              <input type="file" id="add-file" name="add-file">  
+             <h5 style="margin: 0; font-size: 16px; font-weight: 400;" >Upload file</h5>
+           </label>
+              <input type="text" id="create-user-name" name="create-user-name" class="create-name" placeholder="Your member name">
+              <input type="password" id="create-user-pass" name="create-user-pass" class="create-name" placeholder="Enter your password">
+             
+           <input type="submit" class="subm" value="Create NFT">
+         </form>
+      <div class="img-right"></div>
+     </div>
+  </div>
+ </body>
+</html>
